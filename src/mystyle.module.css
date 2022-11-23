@@ -1,0 +1,253 @@
+h1 {
+    font-size: 60px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+iframe {
+    margin: 50px;
+    border: 5px rgb(0, 0, 50);
+    box-shadow: 0 19px 147px -41px rgb(0 0 0 / 75%);
+}
+a {
+    color: white;
+}
+a:hover{
+    color: white;
+}
+li {
+    margin-left: 20px
+}
+
+
+.button {
+    padding: 5px;
+    margin: 20px;
+    width: 225px;
+    background-color:rgb(25,25,100);
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:rgb(50,50,150);
+}
+
+.btn-xlg {
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/*Menu*/
+
+.bg-white {
+    background-color:white !important;
+}
+
+.navbar-brand {
+    font-size: 40px !important;
+    font-family: "Times New", serif !important;
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+.navbar-nav {
+    font-size: 24px;
+}
+.dropdown-item {
+    font-size: 20px;
+}
+
+.nav-logo {
+    width: 100%;
+    height: 100px;
+}
+
+/*Content*/
+.content-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-image {
+    width: 100%;
+    height: 600px;
+    background-image: url("./pages/images/wide.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Trebuchet MS", monospace;
+    letter-spacing: 1px;
+    align-items: center;
+    font-weight: 100;
+}
+
+.content-1 {
+    background-color: rgb(0,0,50);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+}
+
+.content-2 {
+    background-color: white;
+    width: 100%;
+    color: black;
+    padding:20px;
+    display: flex;
+}
+
+.content-3 {
+    background-color: rgb(0,0,50);
+    width: 100%;
+    color: white;
+    padding:20px;
+    display: flex;
+}
+
+.content-4 {
+    background-color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: black;
+    flex-direction: column;
+}
+
+.content_header {
+    color: black;
+    display: flex;
+    max-width: 900px;
+    padding: 20px 20px 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 90px;
+    font-family: "Times New Roman", serif;
+}
+
+.demo-photo{
+    width:50%;
+    max-width:500px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/*.icon_container {*/
+/*    font-size: 40px;*/
+/*    color: #6B6B6B;*/
+/*    background-color:rgba(0, 0, 0, .5);*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    height: 80px;*/
+/*    width:900px;*/
+/*}*/
+
+/*.icon {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*}*/
+
+/*.icon-desc {*/
+/*    color:white;*/
+/*    font-size:25px;*/
+/*    padding-left: 40px;*/
+/*    padding-right: 40px;*/
+/*}*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(204, 102, 0);
+}
+
+.footer-item {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 150px;
+    /*flex: ;*/
+    font-size: 18px;
+}
+
+.footer-three,
+.footer-one {
+    color:white;
+    /*flex:1;*/
+}
+
+.definition {
+    display: flex;
+    text-align: left;
+    padding: 20px;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+    .content {
+        padding-left: 240px;
+        padding-right: 240px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 30px;
+    }
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{   }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .content-1 {
+        background-color: rgb(0,0,50);
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 400px;
+        padding-right: 400px;
+        width: 100%;
+        color: white;
+        flex-direction: column;
+    }
+    .content-2 {
+        background-color: white;
+        max-width: 900px;
+        color: black;
+        padding:20px;
+        display: flex;
+    }
+    .content-3 {
+        background-color: rgb(0,0,50);
+        max-width: 900px;
+        color: white;
+        padding:20px;
+        display: flex;
+    }
+    .content-4 {
+        background-color: white;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        width: 1200px;
+        color: black;
+        flex-direction: column;
+    }
+}
