@@ -1,12 +1,14 @@
 import {Link} from "react-router-dom";
 import '../App.css';
 import Footer from "./Footer";
+import Nav from "./Nav";
 
 
 
 const Stdrsc = () => {
     return (
         <>
+            <Nav />
             <div className="content-container">
                 <div className="content content-1">
                     <h1>Homework Resources</h1>

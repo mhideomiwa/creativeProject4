@@ -7,6 +7,9 @@ import Stdrsc from "./pages/Stdrsc";
 import Tchrsc from "./pages/Tchrsc";
 import Contact from "./pages/Contact";
 import Volunteer from "./pages/Volunteer";
+import Portal from "./pages/Portal"
+import PortalLogin from "./pages/PortalLogin"
+import PortalCreate from "./pages/PortalCreate";
 import Footer from "./pages/Footer";
 import styles from "./mystyle.module.css";
 
@@ -21,6 +24,9 @@ export default function App() {
             <Route path="Tchrsc" element={<Tchrsc />} />
             <Route path="Contact" element={<Contact />} />
             <Route path="Volunteer" element={<Volunteer />} />
+            <Route path="Portal" element={<Portal />} />
+            <Route path="PortalLogin" element={<PortalLogin />} />
+            <Route path="PortalCreate" element={<PortalCreate />} />
             <Route path="*" element={<Navigate to="/" />}  />
           </Route>
         </Routes>

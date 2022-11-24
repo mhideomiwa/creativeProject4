@@ -1,10 +1,12 @@
 import {Link} from "react-router-dom";
 import '../App.css';
 import Footer from "./Footer";
+import Nav from "./Nav";
 
 const Home = () => {
     return(
         <>
+            <Nav />
             <div class="content-container">
                 <div class="content_header">Welcome to Unified Languages</div>
                 <div class="content-image">
@@ -20,9 +22,13 @@ const Home = () => {
                 <div class={"content content-2"}>
                     A special thanks to our partners
                 </div>
+                <a href={"https://pti-jo.com"}>
                 <img src="https://pti-jo.com/wp-content/uploads/2020/06/Logo200px.jpg" alt={"PTI Logo"}></img>
+                </a>
                     <div class="content content-2">Princess Taghrid Institute</div>
+                <a href={"https://www.blackbeltlogistics.com/"}>
                 <img src="https://www.blackbeltlogistics.com/wp-content/uploads/2022/04/BBL-Logo-200x81.png" alt={"Blackbelt Logo"}></img>
+                </a>
                         <div class="content content-2">Black Belt Logistics</div>
 
             </div>

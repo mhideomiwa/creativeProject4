@@ -6,10 +6,12 @@ import demo3 from './images/demo3.jpeg';
 
 
 import Footer from "./Footer";
+import Nav from "./Nav";
 
 const Info = () => {
     return (
         <>
+            <Nav />
             <div className="content-container">
                 <div className="content content-2">
                     <img src={demo1} className="demo-photo" alt={"demo1"}></img>

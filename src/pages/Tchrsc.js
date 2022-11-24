@@ -1,15 +1,17 @@
 import {Link} from "react-router-dom";
 import '../App.css';
 import Footer from "./Footer";
+import Nav from "./Nav";
 const Tchrsc = () => {
     return (
         <>
+            <Nav />
         <div className="content-container">
             <div className="content content-4">
-                <h1>Login to see student records</h1>
-                <a href="volunteer.html">
+                <h1>Volunteer Login</h1>
+                <Link to={"../Portal"}>
                     <button className="button"> Login to Teacher Portal</button>
-                </a>
+                </Link>
             </div>
             <div className="content content-1">
                 <div className="dropdown">
